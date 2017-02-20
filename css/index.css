@@ -1,0 +1,119 @@
+/*复用*/
+*{margin: 0;padding: 0;}
+@font-face {font-family:myFont; src: url("../fonts/PingFangRegular.ttf")} 
+body{position:relative;overflow-x: hidden;font-family: "微软雅黑";}
+.bao_80{margin: 0 auto;width: 80%;}
+.bao_90{margin: 0 auto;width: 90%;}
+.border{width: 100%;float: left;height: 0.2rem;background:#ebebeb ;border: solid thin #d1d1d1;}
+li{list-style: none;}
+/*--------------------头部----------------------------*/
+.header{width: 100%;float: left;position: fixed;left:0;top:0;font-size: 0.4rem;z-index: 111;background: #45a6eb;}
+.header .top{width: 90%;margin: 0 auto;}
+.top .back{float: left;background-image:url(../img/back.gif);background-size:cover;background-repeat:no-repeat;width: 0.5rem;height: 0.5rem;margin-top: 0.2rem;}
+.top .wenzi{float: left;margin-left: 2.0rem;color: white;padding: 0.2rem 0;}
+.top .wenzi1{float: left;margin-left: 1.6rem;color: white;padding: 0.2rem 0;}
+
+.top .shenglue{position:relative;z-index:0;float: right;background-image:url(../img/shenglue.gif);background-size:cover;background-repeat:no-repeat;width: 0.55rem;height: 0.08rem;margin-top: 0.4rem}
+.tooltip{position: absolute;right: 0.1rem;bottom:-0.89rem ;background-image: url(../img/tooltip.gif);background-repeat: no-repeat;background-size: cover;width: 2.9rem;height: 1.05rem;z-index: 11;}
+.tooltip .clock{background-image: url(../img/delay.png);background-repeat: no-repeat;background-size: cover;width: 0.6rem;height: 0.6rem;float: left;margin-left: 10%;margin-top: 0.3rem;}
+.tooltip li{font-size: 0.32rem;display: block;margin-top:0.45rem;text-align: center;vertical-align: middle;}
+.tooltip li a{color: white;}
+/*---------------------首页--------------------*/
+/*个人*/
+/*.person{width: 100%;float: left;background: white;margin-top: 1.0rem;background:red;font-size: 0.25rem;}*/
+.person{width: 100%;float: left;background-image:url(../img/back_person.png);background-repeat:no-repeat;background-size:cover;margin-top: 0.6rem;font-size: 0.25rem;}
+.person .logo{width: 1.2rem;height: 1.2rem;float: left;margin-top: 0.2rem;}
+.logo img{width: 1.2rem;height: 1.2rem;}
+.person .per_intro{width: 70%;float: left;margin-left: 0.7em;padding-bottom: 0.3rem;}
+.per_intro .name{font-size: 0.32rem;color: #343434;margin-top: 0.25rem;display: block;}
+.per_intro .company{font-size: 0.26rem;color: #666666;margin-top: 0.15rem;display: block;white-space: nowrap;overflow: hidden;text-overflow:ellipsis;}
+.per_intro span:nth-child(2){margin-top: 0.2rem;}
+/*快捷收货*/
+.box_menu{width: 100%;float: left;}
+.biaoti{border-bottom: solid thin #d1d1d1;width: 100%;float: left;padding: 0.2rem 0;}
+.tit_bla{color: #333333;font-size: 0.3rem;padding-left: 0.2rem;}
+.tit_color{color: #666666;font-size: 0.3rem;line-height: 0.25rem;}
+.border_left{border-left: solid 0.18rem #45a6eb;float: left;padding: 0.05rem 0;}
+.box_echo{width: 49%;float: left;text-align: center;font-size: 0.35rem;}
+.box_scan{width: 49%;border-left: solid thin #d1d1d1;float: left;text-align: center;font-size: 0.35rem;}
+.box_his{width: 100%;float: left;text-align: center;font-size: 0.25rem;color: #999999;height: 2.4rem;line-height: 2.4rem;}
+/*历史记录*/
+.box_his1{width: 100%;float: left;font-size: 0.25rem;color: #999999;}
+.huodan{width: 100%;float: left;border-bottom: solid thin #d1d1d1;padding-bottom: 0.2rem;}
+.dan1{display: block;width: 100%;float: left;}
+.dan1 li{margin-top: 0.15rem;}
+.pic1{border: solid thin #dddddd;width: 1.3rem;height: 1.3rem;float: left;margin-top: 0.3rem;}
+.box_menu .pic1 img{width:1.25rem;height:1.25rem;display: block;margin: 0 auto;margin-top: 0;}
+.box_menu img{width: 1.50rem;height: 1.50rem;margin-top: 0.35rem;}
+.box_menu p{text-align: center;display: block;font-size: 0.32rem;color: #333333;margin-top: 0.2rem;margin-bottom: 0.5rem;}   
+.zt{color: #333;}
+/*尾部*/
+.footer{width: 100%;height: 0.98rem;background: #ebebeb;float: left;} 
+.exit{float: right;background-image:url(../img/exit.png);background-size:cover;background-repeat:no-repeat;width: 25px;height: 30px;margin-top: 5%;}
+.bao_95new{margin: 0 auto;width: 95%; background: #46a6ec;border: none;}
+.f_l{float: left;display: block;}
+.f_r{float: right;display: block;/*margin-top: 0.1rem;*/}
+
+
+/*---------------------配送单详情--------------------*/
+/*订单详情*/
+.menu_details{width: 100%;float: left;font-size: 0.28rem;margin-top: 0.5rem;padding-top:0.5rem;list-style: none;background: white;}
+.bao_fl90{width: 90%;float: right;margin-bottom: 0.35rem;}
+.bao_fl100{width: 100%;float: left;}
+.bao_flt90{width: 90%;float: right;margin-top: 0.2rem;}
+.bao_95{width: 95%;margin: 0 auto;border-bottom: solid thin #dddddd;padding-bottom: 0.8rem;}
+.bao_95_noborder{width: 95%;margin: 0 auto;padding-bottom: 0.4rem;}
+.bao_100{width: 100%;margin: 0 auto;border-bottom: solid thin #f6f6f6;background: #f6f6f6;float: left;padding-top: 0.2rem;}
+.bao_95new1{width: 95%;margin: 0 auto;border-bottom: solid thin #f6f6f6;padding-bottom: 0.8rem;background: #f6f6f6;padding-top: 0.1rem;}
+.company_name{float: left;margin-top: 0.08rem;}
+.company_name1{float: left;margin-top: 0.08rem;color: #333333;font-size: 0.27rem;}
+.dispatch{float: right;margin-top: 0.08rem;}
+.dispatch1{float: right;margin-top: 0.08rem;color: #333333;font-size: 0.27rem;}
+.transport_num{color:#000;}
+.provider_num{color: #959595;}
+.dan{display: block;margin-top: 0.15rem;width: 100%;float: left;}
+.dan li{color: #959595;margin-top: 0.2rem;}
+/*.dan li:first-child{margin-top: 0.35rem;}*/
+.cost{color: #84ab3f;}
+/*订单设备*/
+.menu_list{width: 100%;float: left;font-size: 0.28rem;padding-top: 0.3rem;background: white;}
+.pic{border: solid thin #dddddd;width: 1.29rem;height: 1.29rem;float: left;}
+.pic img{width:1.25rem;height:1.25rem;text-align: center;vertical-align: middle;}
+.product_name{font-size: 0.23rem;width: 58%;display: inline-block;margin-left: 0.15rem;word-wrap:break-word; word-break:break-all;}
+.box{float: right;width: 15%;}
+.total{margin-top: 0.35rem;float: right;margin-right: -15%;}
+.pro_btn{width: 80%;float: right;padding: 0.2rem 0;list-style: none;margin-right: 5%;}
+.pro_btn li{float: left;margin-left: 0.1rem;}
+.pro_btn input[type=button]{width: 1.56rem;height: 0.6rem;border: solid thin #46a6ec;background: white;color: #46a6ec;border-radius: 5px;-webkit-appearance: none;font-size: 0.28rem;text-align: center;}
+.pro_btn #confirm_btn{background: #46a6ec;color: white;}
+.amount{margin-top: 0.2rem;font-size: 0.23rem}
+.change{font-size: 0.23rem}
+.border_bot{width: 100%;background: #ebebeb;height: 3.0rem;float: left;}
+/*收货按钮*/
+.thing_goods{width: 100%;position: fixed;left: 0;bottom: 0;}
+.thing_goods .time_box{position: absolute;left: 0;top: 0;/*border-right: 50px solid transparent;border-top: 100px solid red;*//*color:green;*/background-image: url(../img/bot_blocknew.png) ;background-repeat: no-repeat;background-size: contain;width: 2.8rem;height: 0.8rem;font-size: 0.24rem;z-index: 111;padding-bottom: 0.5rem;}
+.time_box .time_logo{background-image: url(../img/clock.png);background-repeat: no-repeat;background-size: cover;width: 30px;height:30px;float: left;margin-left: 5%;}
+.time_box p{display: block;color: white;margin-top: 0.0rem;margin-bottom: 0.0rem;}
+.data_box{margin-top: 0.05rem;}
+.thing_goods input{display:block;width: 100%;background: #46a6ec;color: white;font-size: 0.32rem;padding: 0.3rem 0;-webkit-appearance: none;border-radius: 0px;border:none;outline: none}
+/*退货申请页*/
+.menu_cancel{width: 95%;float: left;margin-left: 2.5%;}
+.menu_cancel li{display: inline-block;font-size: 0.25rem;height: 0.5rem;line-height: 0.5rem;text-align: center;}
+.menu_cancel li:nth-child(2){margin-left: 0.25rem;}
+.menu_cancel .ulist{margin-top: 0.25rem;}
+.menu_cancel input[type=button]{border-radius: 100%;border: none;background:#46a6ec;color: white;width: 0.5rem;height: 0.5rem;line-height: 0.25rem;text-indent: 0px;padding: 0px 0px;}
+.menu_cancel input[type=text]{width: 30px;color: black;text-align: center;padding: 0;border: none;width: 0.5rem;height: 0.5rem;}
+#text_area{width: 100%;margin: 0 auto;border:/*#ff5825*//*#46a6ec*/#999 solid thin ;border-radius: 5px;word-wrap: break-word;height: 2.3rem;position: relative;}
+#text_area .tishi{position: absolute;bottom: 0;left: 5%;color: #ff5825;width: 90%;}
+.menu_cancel .pic{width: 1.0rem;height: 1.0rem;border: #d1d1d1 solid thin;}
+.menu_cancel .pic + .pic{margin-left: 0.2rem;}
+.menu_cancel .pic img{width: 60%;height: 50%;margin: 0 auto;vertical-align: middle;display: block;margin-top: 24%;}
+.menu_cancel .btngro input:nth-child(1){width: 4.0rem;height: 0.6rem;border: solid thin #46a6ec;background:#46a6ec;color: white;border-radius: 5px;-webkit-appearance: none;font-size: 0.28rem;text-align: center;font-size: 0.25rem;line-height: 0.3rem;}
+.menu_cancel .btngro input:nth-child(2){width: 1.7rem;height: 0.6rem;border: solid thin #46a6ec;color: #46a6ec;background:white;border-radius: 5px;-webkit-appearance: none;font-size: 0.28rem;text-align: center;font-size: 0.25rem;line-height: 0.3rem;}
+.ulist{float: left;width: 100%;}
+.ulist p{color: black;margin-bottom: 0.1rem;}
+/*输入配送单号--选择供应商*/
+.peisong_company{width: 100%;float: left;}
+.peisong_company li{width: 100%;border-top: solid thin #d1d1d1;border-bottom: solid thin #D1D1D1;margin-bottom: 0.2rem;background: white;padding: 10px 0px;}
+.peisong_company li img{width: 50%;height: 50%;display: block;margin: 0 auto;}
+/*输入配送单号*/

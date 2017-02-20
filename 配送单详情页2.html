@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/index.css" />
+		<!--<script type="text/javascript" src="js/jquery_1_11_1min.js" ></script>-->
+		<script type="text/javascript" src="js/Mobile.js" ></script>
+	    <script src="js/mui.min.js"></script>
+	</head>
+<style type="text/css">
+	.active{color: #999999;}
+</style>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<div class="bao_95new">
+				 <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" style="margin-top: 0px;display: block;float: left;"></a>
+		    <h1 class="mui-title">配送单详情</h1>
+		    <a class="mui-icon mui-icon-more-filled mui-pull-right" id="shenglue" style="margin-top: 0px;display: block;float: right;"></a>
+			</div>
+		    <!--<div class="tooltip" id="tooltip">
+		   	  <div class="clock"></div>
+		   	  <li><a href="#">延迟收货</a></li>
+		    </div>-->
+		</header>
+		<!--<script type="text/javascript">
+		    var sheng_Lue = document.getElementById('shenglue');
+			var tool_Tip = document.getElementsByClassName('tooltip')[0];
+			sheng_Lue.addEventListener('tap', function() {
+			    if(tool_Tip.style.display=="none"){
+			    	tool_Tip.style.display = "block";
+			    }else{
+			    	tool_Tip.style.display = "none";
+			    }
+			});
+        </script>-->
+		<!--订单详情-->
+		<div class="menu_details">
+			<div class="bao_90 clearfix">
+				<img src="img/shop.png" style="float: left;display: block;width: 0.5rem;height: 0.5rem;">
+				<div class="bao_fl90">
+					<li class="company_name">史泰博供应</li>
+					<li class="dispatch">配送单号：<span class="transport_num">010201110</span></li>
+					<ul class="dan">
+						<li class="f_l">供应商单号：<span class="provider_num">16082400003732006</span></li>
+						<li class="f_l">商品订单数：<span class="amount">2</span>个</li>
+						<li class="f_r">订单总额：￥<span class="cost">289.11</span></li>
+					</ul>	
+				</div>
+			</div>
+		</div>
+		<div class="border"></div>
+		<!--订单设备-->
+		<div class="menu_list clearfix">
+			<div class="bao_95 clearfix active">
+				<div class="pic clearfix">
+					<img src="img/pic_1.png">
+				</div>
+				<li class="product_name">惠普 CH565A打印机墨盒 69ml黑色(适用 Designjet 100 …</li>
+				<div class="box clearfix">
+					<li class="f_r">￥<span class="change">246.36</span></li>
+				    <li class="amount f_r">×1</li>
+				</div>
+				<div class="total">合计：￥<span class="total_money">246.36</span></div>
+			</div>
+			<div class="pro_btn">
+		        <li style="float: right;"><input type="button" value="已退货" id="confirm_btn" class="con_btn" style="background: none;border: none;color: #666666;"></li>
+			</div>
+		</div>
+		<div class="border"></div>
+		<!--订单设备-->
+		<div class="menu_list clearfix">
+			<div class="bao_95 clearfix">
+				<div class="pic clearfix">
+					<img src="img/pic_1.png">
+				</div>
+				<li class="product_name">惠普 CH565A打印机墨盒 69ml黑色(适用 Designjet 100 …</li>
+				<div class="box clearfix">
+					<li class="f_r">￥<span class="change">246.36</span></li>
+				    <li class="amount f_r">×1</li>
+				</div>
+				<div class="total">合计：￥<span class="total_money">246.36</span></div>
+			</div>
+			<div class="pro_btn">
+		    	<li style="float: right;"><input type="button" value="退货申请中" id="confirm_btn" class="con_btn" style="background: none;border: none;color: #666666;width: 1.75rem;"></li>
+			    <li style="float: right;"><input type="button" value="取消申请" id="reject_btn" ></li>
+			</div>
+		</div>
+		<div class="border_bot"></div>
+    </body>
+
+</html>

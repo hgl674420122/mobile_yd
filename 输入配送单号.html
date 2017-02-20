@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/common.css" />
+		
+		<script type="text/javascript" src="js/jquery_1_11_1min.js" ></script>
+		<script type="text/javascript" src="js/Mobile.js" ></script>
+	    <script src="js/mui.min.js"></script>
+	</head>
+        <style type="text/css">
+        .mui-slider .mui-slider-group .mui-slider-item{padding-bottom: 0;}
+        #mslider{position: relative;}
+        #mslider img{width: 90%;display: block;margin: 0 auto;margin-top:30px;}
+        #mslider .di{position: absolute;width: 120px;height: 0px;border-bottom:35px #93c32a solid;border-right: none;border-left:transparent 30px solid ;right: 0;bottom: 0px;z-index: 555;}
+        .mui-slider-indicator {position: absolute;width: 50%;text-align: center;background: none;left: 40%;}
+        .mui-slider-indicator .mui-active.mui-indicator {background: #dfdecc;}
+        .mui-slider-indicator .mui-indicator {display: inline-block;width: 10px;height: 10px;margin: 1px 6px;cursor: pointer;border: solid thin #dfdecc;border-radius: 50%;background: none;}
+        .mui-icon-close-filled:before, .mui-icon-clear:before {content: '\e434';color: #aeaeae;}
+        </style>
+	<body style="background: #ebebeb;">
+		<header class="mui-bar mui-bar-nav">
+			<div class="bao_95new">
+				 <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" style="margin-top: 0px;display: block;float: left;"></a>
+		    <h1 class="mui-title">输入配送单号</h1>
+		    </div>
+		</header>
+		<div class="mui-content" style="background: #ebebeb;">
+		    <div class="bao_90">
+		    	 <p style="color: black;margin-top: 0px;padding-top: 15px;margin-left: 5%;">在这里找到史泰博配送单号：</p>
+		    </div>
+		<!---------------轮播部分---------------------->
+			<div id="mslider" class="mui-slider" style="background:#c5e7ff ;" >
+				<div class="di">
+					<span style="color: white;font-size:15px;white-space: nowrap;line-height: 30px;">2种配送单样式</span>
+				</div>
+			  <div class="mui-slider-group mui-slider-loop">
+			    <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+			    <div class="mui-slider-item mui-slider-item-duplicate">
+			      <a href="#">
+			        <img src="img/dan.png">
+			      </a>
+			    </div>
+			    <!-- 第一张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="img/dan.png">
+			      </a>
+			    </div>
+			    <!-- 第二张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="img/dan.png">
+			      </a>
+			    </div>
+			    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+			    <div class="mui-slider-item mui-slider-item-duplicate">
+			      <a href="#">
+			        <img src="img/dan.png">
+			      </a>
+			    </div>
+			  </div>
+			  <div class="mui-slider-indicator">
+			    <div class="mui-indicator mui-active"></div>
+			    <div class="mui-indicator"></div>
+			  </div>
+			</div>
+		</div>
+		<div class="bao_100" style="background: white;border-bottom: #d1d1d1 thin solid;">
+			<form style="width:90%;margin-top: 10px;">
+			<div class="mui-input-row" style="background: white;margin-top: 15px;padding-top: 5px;">
+				<span style="display:block;float: left;padding: 18px 0px;">配送单号：</span>
+				<input type="text" class="mui-input-clear" value="0801312456" style="border: none;width:70%;color: #666666;margin-top: 10px;">
+	        </div>
+		</form>
+		</div>
+		<div class="mui-button-row" style="margin-top: 15%;">
+	        <button type="button" class="mui-btn mui-btn-block " style="background:#46a6ec;color: white;width: 90%;margin: 0 auto;" >查&nbsp;&nbsp;询</button>
+	    </div>
+	</body>
+
+</html>

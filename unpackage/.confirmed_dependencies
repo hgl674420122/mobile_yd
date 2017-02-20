@@ -1,0 +1,51 @@
+{
+	"index.html": {
+		"resources": [
+			"css/common.css",
+			"js/mui.min.js",
+			"img/logo.png",
+			"css/mui.css",
+			"登录2.html",
+			"index1.html",
+			"登录-需要输入验证码-1.html",
+			"index4.html"
+		],
+		"refer": [
+			"登录2.html",
+			"index1.html",
+			"index3.html",
+			"登录-需要输入验证码-1.html",
+			"index4.html"
+		]
+	},
+	"index1.html": {
+		"resources": [
+			"index.html",
+			"fonts/mui.ttf",
+			"css/common.css",
+			"js/mui.min.js",
+			"img/logo.png",
+			"css/mui.css"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"index3.html": {
+		"resources": [
+			"css/common.css",
+			"js/mui.min.js",
+			"img/logo.png",
+			"css/mui.css"
+		]
+	},
+	"index4.html": {
+		"resources": [
+			"index.html",
+			"img/confirm.png"
+		],
+		"refer": [
+			"index.html"
+		]
+	}
+}

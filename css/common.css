@@ -1,0 +1,37 @@
+/*---------------------------登录部分-----------------------*/
+.color_blue{background: #46a6ec;}
+.logo{width:74% ;margin:0 auto;margin-top:11% ;}
+.logo img{width: 100%;}
+/*表单*/
+form{width: 84%;margin: 0 auto;margin-top: 8%;}
+form input[type="text"],form input[type="password"]{display:block;outline:none;border: 0;-webkit-appearance: none;width:100%;border-bottom:solid thin #9bcbee ;line-height: 40px;height: 40px;background: none;color: white;}
+#login_btn{color: white;background: none;border: solid thin #9bcbee;-webkit-appearance: none;} 
+/*.opac_7{opacity: 0.7;}*/
+::-webkit-input-placeholder { color:#9ed4fb; }
+::-moz-placeholder { color:#9ed4fb;} /* firefox 19+ */
+:-ms-input-placeholder { color:#9ed4fb; } /* ie */
+input:-moz-placeholder { color:#9ed4fb; }
+.ano_login{margin-top: 50px;text-align: center;}
+.color_white{color: white;} 
+.version_num{position: absolute;left:0;bottom: 10%;text-align: center;color: white;width: 100%;}
+/*----------------------引导页-------------------*/
+.yindao{margin: 0 auto;display: block;width: 80%;margin-top: 10%;}
+.yindao button{border: none;-webkit-appearance: none;}
+#login_general{width: 45%;padding: 15px 0px;background: #4a91c7;color: #bde3ff;font-size: 16px;}
+#login_moved{width: 45%;padding: 15px 0px;background: #a5d9ff;color: #035898;float: right;font-size: 16px;}
+.fts20{font-size: 20px;text-align: center;}
+.fts15{font-size: 15px;text-align: center;}
+/*.icon_change{float: right;margin-top: -50px;margin-right: 8px;}*/
+/*等待ing*/
+.wait_loading{width: 120px;height:100px;background: black;opacity: 0.75;position: absolute;z-index: 11;left: 50%;top:45%;margin-left: -60px;margin-top:-50px;border-radius: 5px;padding: 10px;border: solid thin #505050;}
+.loading_span{display: block;z-index: 111;color: white;width: 100%;margin: 0 auto;font-size: 14px;text-align: center; }
+
+/*错误*/
+.error_info{width: 140px;height:100px;background: black;opacity: 0.75;position: absolute;z-index: 11;left: 50%;top:45%;margin-left: -70px;margin-top:-50px;border-radius: 5px;padding: 10px;border: solid thin #505050;}
+.error_pic{background: url(../img/info.png) no-repeat;width: 30px;height: 30px;background-size: cover;margin: 10px auto;}
+/*验证码*/
+#confirm{width: 70%;display: block;float: left;}
+.confirm_pic{background: url(../img/confirm.png) no-repeat;background-size: contain;width: 70px;height: 30px;float: right;display: block;margin-top: 2%;}
+/*动态登录*/
+#num_dongtai{width: 58%;display: block;float: left;}
+#btn_dongtai{width: 40%;display: block;float: right;color: white;height:40px;background:none ;border: thin solid #FFFFFF;}
